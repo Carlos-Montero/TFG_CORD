@@ -88,7 +88,7 @@ $ cd /localkube
 $ ls
 ```
 
-Cahnge permissions on "kubeconfig" file and "certs" folder:
+Change permissions on "kubeconfig" file and "certs" folder:
 
 ```sh
 $ sudo chmod 777 kubeconfig
@@ -174,10 +174,10 @@ $ kubectl get pods
 And, to see in deep the state of the pods:
 
 ```sh
-$ kubectl describe pod pods
+$ kubectl describe pod 
 ```
 
-In the next link thera are documentation related with debugging Kubernetes CrashLoopBacckoff pods:
+In the next link there is documentation related with debugging Kubernetes CrashLoopBacckoff pods:
 
 https://sysdig.com/blog/debug-kubernetes-crashloopbackoff/
 
