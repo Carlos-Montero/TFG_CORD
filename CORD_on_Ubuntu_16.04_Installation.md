@@ -1,5 +1,7 @@
 # CORD Installation on Ubuntu 16.04 Single Node
 
+This document describes how to install the R-CORD profile, plus a SimpleExampleService, on a single machine.
+
 ### PREREQUISITES: Docker and Python installation
 
 Docker and Python installation:
