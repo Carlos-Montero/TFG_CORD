@@ -118,7 +118,7 @@ $ git clone https://gerrit.opencord.org/helm-charts
 $ cd helm-charts
 ```
 
-### Reun the Helm installer script
+### Run the Helm installer script
 
 Doing this, it will automatically grab the lastest version of the Helm client and install it locally:
 
