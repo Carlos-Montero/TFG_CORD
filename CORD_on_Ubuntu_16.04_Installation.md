@@ -100,7 +100,7 @@ $ sudo chmod 777 certs
 Navigate to /certs and change permissions on the next files:
 
 ```sh
-$ cd /certs
+$ cd certs
 $ ls
 $ sudo chmod 777 apiserver.crt
 $ sudo chmod 777 apiserver.key
