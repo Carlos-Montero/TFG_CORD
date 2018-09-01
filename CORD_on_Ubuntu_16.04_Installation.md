@@ -86,7 +86,7 @@ Change permissions of the next folders and files:
 ```sh
 $ cd /var/lib
 $ sudo chmod 777 localkube
-$ cd /localkube
+$ cd localkube
 $ ls
 ```
 
