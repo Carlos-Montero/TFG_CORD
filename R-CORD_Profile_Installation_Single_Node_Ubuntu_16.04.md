@@ -188,6 +188,8 @@ sudo helm install -f examples/kafka-single.yaml --version 0.8.8 -n voltha-kafka 
 sudo helm install -n hippie-oss xos-services/hippie-oss
 ```
 
+### Verification
+
 Use "kubectl get pods" to verify that all containers in the profile are successful and none are in the error state:
 
 ```sh
