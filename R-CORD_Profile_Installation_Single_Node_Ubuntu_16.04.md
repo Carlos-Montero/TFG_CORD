@@ -168,14 +168,14 @@ $ sudo helm install xos-profiles/demo-simpleexampleservice -n demo-simpleexample
 
 ```
 
-Install R-CORD Profile
+### Install R-CORD Profile
 
 ```sh
 sudo helm dep update xos-profiles/rcord-lite
 sudo helm install -n rcord-lite xos-profiles/rcord-lite
 ```
 
-Install Kafka Helm Chart (Optional)
+### Install Kafka Helm Chart (Optional)
 
 ```sh
 sudo helm repo add incubator http://storage.googleapis.com/kubernetes-charts-incubator
@@ -183,8 +183,7 @@ sudo helm install -f examples/kafka-single.yaml --version 0.8.8 -n cord-kafka in
 sudo helm install -f examples/kafka-single.yaml --version 0.8.8 -n voltha-kafka incubator/kafka
 ```
 
-Hippie OSS Helm Chart (Optional)
-
+### Install Hippie OSS Helm Chart (Optional)
 ```sh
 sudo helm install -n hippie-oss xos-services/hippie-oss
 ```
