@@ -185,7 +185,7 @@ $ helm install seba-substrate -n seba-substrate
 $ helm upgrade seba-substrate --set voltha.etcd-operator.customResources.createEtcdClusterCRD=true seba-substrate
 ```
 
-fter installing the SEBA charts above, the following commands can be used to wait until all pods have started successfully:
+After installing the SEBA charts above, the following commands can be used to wait until all pods have started successfully:
 
 ```sh
 ../tools/wait-for-pods.sh
