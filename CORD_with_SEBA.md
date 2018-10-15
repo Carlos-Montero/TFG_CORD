@@ -1,4 +1,4 @@
-# CORD Installation on Ubuntu 16.04 Single Node
+# CORD Installation with SEBA
 
 This document describes how to install CORD, plus a SimpleExampleService, on a single machine.
 
