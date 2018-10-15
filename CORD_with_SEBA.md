@@ -1,6 +1,6 @@
 # CORD Installation with SEBA
 
-This document describes how to install CORD, plus a SimpleExampleService, on a single machine.
+This document describes how to install CORD with SEBA, plus a SimpleExampleService, on a single machine.
 
 ### PREREQUISITES: Docker and Python installation
 
