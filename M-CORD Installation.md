@@ -2,9 +2,15 @@
 
 This document describes how to install M-CORD profile, on a single node virtual machine in CloudLab.
 
-### PREREQUISITES: Docker and Python installation
+### PREREQUISITES
 
-Docker and Python installation:
+Lastest versions of released software:
+
+```sh
+$ sudo apt update
+```
+
+Kubernetes 1.10.0:
 
 ```sh
 $ sudo apt update
@@ -16,7 +22,7 @@ $ sudo systemctl start docker
 $ sudo systemctl enable docker
 ```
 
-To verify the version used in Docker, we use:
+Helm v2.10.0:
 ```sh
 $ docker --version
 ```
