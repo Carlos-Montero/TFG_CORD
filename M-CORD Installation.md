@@ -41,9 +41,8 @@ In order to verify if the set up has been done property, is possible to check it
 ```sh
 $ helm list
 ```
-In this case, will appear all the helm charts components that has been installed:
-  - base-kubernetes
+In this case, will appear all the helm charts components that has been installed, as an example:
+  - base-openstack
   - mcord 
   - onos-fabric
-  - vepcservice 
   - xos-core 
