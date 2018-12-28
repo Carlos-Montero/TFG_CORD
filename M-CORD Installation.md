@@ -23,7 +23,7 @@ $ sudo apt update
   - Helm v2.10.0
 
 It is possible to deploy all the helm charts that uses M-CORD separetely. 
-But, in order to do it simple, exists an script to do it automatically: 
+But, in order to do it simple, exists a script to do it automatically: 
 
 ### Installation of M-CORD profile with the convenience script
 
