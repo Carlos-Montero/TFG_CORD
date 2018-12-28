@@ -4,31 +4,36 @@ This document describes how to install M-CORD profile, on a single node virtual 
 
 ### PREREQUISITES
 
-Lastest versions of released software:
+  - Ubuntu 16.04.4 LTS server with:
+        - 64GB of RAM
+        - 32 virtual CPUs
+        
+  - Lastest versions of released software:
 
 ```sh
 $ sudo apt update
 ```
 
-Kubernetes 1.10.0:
+  - user root capabilities
+
+  - Open access to the Internet
+
+  - Public DNS servers are accessible
+  
+  - Kubernetes 1.10.0
+
+  - Helm v2.10.0
+
+It is possible to deploy all the helm charts that uses M-CORD separetely. 
+But, in order to do it simple, exists an script to do it automatically: 
+
+### Installation of M-CORD profile with the convenience script
 
 ```sh
-$ sudo apt update
-$ sudo apt-get install python
-$ sudo apt-get install python-pip
-$ pip install requests
-$ sudo apt install -y docker.io
-$ sudo systemctl start docker
-$ sudo systemctl enable docker
+$ mkdir ~/cord
+$ cd ~/cord
+$ git clone https://gerrit.opencord.org/automation-tools
+$ automation-tools/mcord/mcord-in-a-box.sh
 ```
-
-Helm v2.10.0:
-```sh
-$ docker --version
-```
-
-### Minikube and Kubectl
-
-Minikube and Kubectl installation:
 
 
