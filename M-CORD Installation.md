@@ -34,4 +34,16 @@ $ git clone https://gerrit.opencord.org/automation-tools
 $ automation-tools/mcord/mcord-in-a-box.sh
 ```
 
+### Validating the installation
 
+In order to verify if the set up has been done property, is possible to check it with:
+
+```sh
+$ helm list
+```
+In this case, will appear all the helm charts components that has been installed:
+  - base-kubernetes
+  - mcord 
+  - onos-fabric
+  - vepcservice 
+  - xos-core 
