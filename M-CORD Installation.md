@@ -4,9 +4,7 @@ This document describes how to install M-CORD profile, on a single node virtual 
 
 ### PREREQUISITES
 
-  - Ubuntu 16.04.4 LTS server with:
-        - 64GB of RAM
-        - 32 virtual CPUs
+  - Ubuntu 16.04.4 LTS server with 64GB of RAM and 32 virtual CPUs
         
   - Lastest versions of released software:
 
