@@ -21,7 +21,7 @@ But, in order to do it simple, exists a script to do it automatically:
 ```sh
 $ mkdir -p ~/cord
 $ cd ~/cord
-$ git clone https://gerrit.opencord.org/automation-toolss
+$ git clone https://gerrit.opencord.org/automation-tools
 $ cd automation-tools/seba-in-a-box
 ```
 
